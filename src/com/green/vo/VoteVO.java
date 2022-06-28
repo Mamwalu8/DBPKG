@@ -1,41 +1,41 @@
 package com.green.vo;
 
 public class VoteVO {
-	private String V_Jumin;
-	private String V_Name;
-	private String M_No;
-	private String V_Time;
-	private String V_Area;
+	private String v_Jumin;
+	private String v_Name;
+	private String m_No;
+	private String v_Time;
+	private String v_Area;
 	private String v_Comfirm;
 	public String getV_Jumin() {
-		return V_Jumin;
+		return v_Jumin;
 	}
 	public void setV_Jumin(String v_Jumin) {
-		V_Jumin = v_Jumin;
+		this.v_Jumin = v_Jumin;
 	}
 	public String getV_Name() {
-		return V_Name;
+		return v_Name;
 	}
 	public void setV_Name(String v_Name) {
-		V_Name = v_Name;
+		this.v_Name = v_Name;
 	}
 	public String getM_No() {
-		return M_No;
+		return m_No;
 	}
 	public void setM_No(String m_No) {
-		M_No = m_No;
+		this.m_No = m_No;
 	}
 	public String getV_Time() {
-		return V_Time;
+		return v_Time;
 	}
 	public void setV_Time(String v_Time) {
-		V_Time = v_Time;
+		this.v_Time = v_Time;
 	}
 	public String getV_Area() {
-		return V_Area;
+		return v_Area;
 	}
 	public void setV_Area(String v_Area) {
-		V_Area = v_Area;
+		this.v_Area = v_Area;
 	}
 	public String getV_Comfirm() {
 		return v_Comfirm;
@@ -43,5 +43,6 @@ public class VoteVO {
 	public void setV_Comfirm(String v_Comfirm) {
 		this.v_Comfirm = v_Comfirm;
 	}
+	
 	
 }
